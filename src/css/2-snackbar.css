@@ -1,0 +1,50 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label,
+.form fieldset {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input[type="number"] {
+    padding: 5px;
+    width: 100%;
+}
+
+.form fieldset {
+    border: none;
+    padding: 0;
+}
+
+.form button {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+}
+
+.form button:hover {
+    background: #6c8cff;
+}
